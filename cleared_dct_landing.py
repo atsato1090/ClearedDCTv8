@@ -27,7 +27,7 @@ st.markdown(
 )
 
 # === Display centered logo ===
-st.image("logo_loading.png", use_column_width=False, output_format="PNG", caption="ClearedDCT", clamp=True)
+st.image("logo_loading.png", use_container_width=True, output_format="PNG", caption="ClearedDCT", clamp=True)
 
 # === Title ===
 st.markdown("<h2 style='text-align: center; font-size: 28px;'>Welcome to ClearedDCT</h2>", unsafe_allow_html=True)
@@ -37,7 +37,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 centered_button = st.columns(3)
 with centered_button[1]:
     if st.button("🚀 Enter App", use_container_width=True):
-        st.switch_page("cleareddct_tabs.py")  # Ensure the correct name matches your deployed tabs file
+        st.switch_page("cleareddct_tabs.py")  # Ensure this file name matches your deployed app
 
 # === Optional footer ===
 st.markdown("<br><p style='text-align: center; font-size: 14px; color: gray;'>Effortless Flight Plan Management</p>", unsafe_allow_html=True)
