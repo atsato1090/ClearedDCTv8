@@ -22,7 +22,7 @@ def load_lottieurl(url):
         return None
 
 # Aviation clouds animation (new, clean)
-clouds_animation = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_tljjahzj.json")
+clouds_animation = load_lottieurl("https://lottie.host/55e20894-4749-4dbb-ae97-f9f1d49d4790/QEtNUXM94H.json")
 
 # ----------------- PAGE BACKGROUND COLOR -------------------
 st.markdown(
